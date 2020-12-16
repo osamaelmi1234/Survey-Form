@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  
+ }
+
+
+#headone {
+   color:#fff;
+  margin:0;
+  background: linear-gradient(-45deg, #EE7552 , #E73C7E , #23A6D5, #23D5AB);
+  background-size:400%, 400% ;
+  position: relative; 
+  animation: change 13s ease-in-out infinite; 
+  font-family: 'Lato', sans-serif;
+}
+
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%; 
+  }
+}
+
+
+#sectiontwo {
+  margin-left:20px;
+  padding-left:30px;
+  padding-right:30px;
+}
+#head{
+  margin:auto;
+  width:50%;
+  text-align:center;
+  
+ }
+
+#survey-form{
+  
+  padding-top:30px;
+  width:50%;
+  margin:auto;
+  
+}
+#title {
+  text-align:center;
+  line-height:30px;
+}
+#description {
+  margin-left:20px;
+  
+}
+label {
+  font-size: 20px;
+ padding-bottom: 10px;
+  
+}
+p{
+  font-size:20px;
+}
+#name-label{
+  display:block;
+}
+#email-label{
+  display:block;
+}
+#number-label{
+  display:block; 
+}
+.likes{
+  display:block;
+  
+}
+#situation{
+  display:block;
+}
+#dropdown {
+  width:35%;
+  margin-left:1px;
+  height: 2.375rem;
+ }
+#name-email-age{
+  
+ padding-left:30px;
+  margin-left:20px;
+  padding-right:30px;
+}
+
+#email , #name, #number{
+  width: 96%;
+  height: 2.375rem;
+  
+}
+
+#checkbox {
+  display:inline-block;
+}
+#textarea {
+  display:block;
+}
+#comments {
+  display:block;
+ width:99.4%;
+  height:50%;
+}
+#button{
+  text-align:center;
+}
+#submit {
+  padding-left:20%;
+  padding-right:20%;
+  font-size:20px;
+ }

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Survey Form</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+<body>
+<div id = "headone">
+  <div id="head">
+  <header> 
+   <br><br><br>
+<h1 id="title"> Survey Form </h1>
+    
+<h3 id="description"> Thank you for participating in our survey </h3>
+  </header>
+  </div>
+
+<form id="survey-form"> 
+  
+  <div id= "name-email-age">
+  <label id="name-label">Name:</label>
+    
+  <input id="name" type="text" placeholder="Enter your name here" required>
+  <br><br>
+  <label id="email-label">Email:</label>
+    <input id="email" type="email" required placeholder="Enter your email address here">
+  <br><br>
+  <label id="number-label">Age:</label>
+    <input id="number" type="number" required placeholder="Enter your age here" min="10" max="100">
+  </div>
+  <br>
+  <div id="sectiontwo">
+  <label for="recommendation" id="situation"> What best describes your current situation? </label>
+  <select id="dropdown">
+    <option disabled>Select an option</option>
+    <option value="fulltimejob"> Full time job </option>
+   <option value="parttimejob">Part time job</option>
+    <option value="student">Student</option>
+    <option value="other">Other</option>
+  </select>
+  <br><br>
+  <p>How likely will you recommend FCC to a friend? </p>
+  <div class=likes>
+  <input type="radio" required value="definently" name="fcc">Definently </input>
+<br>
+
+<input type="radio" required value="maybe" name="fcc">Maybe</input>
+<br>
+
+<input type="radio" required value="notsure"
+       name= "fcc">Not sure</input>
+</div>
+<br>
+
+<p>What do you like most about FCC?</p>
+<input type="checkbox" required value="likes" id="challenges">Challenges</input>
+<br>
+<input type="checkbox" value="likes" id="projects" required>Projects</input>
+<br>
+<input type="checkbox" value="likes" id="forum" required>Forum</input>
+<br>
+<input type="checkbox" value="likes" id="extracourses" required>Extra courses</input>
+
+<br><br>
+<label for="comments">Write in your own words how we can improve our service </label>
+<br>
+<br>
+<div id="textarea">
+<textarea id="comments" name="comments"rows="5" cols="30" required>  </textarea>
+  <br>
+
+  <div id="button">
+  <button id="submit" >Submit 
+    </button>
+  </div>
+</div>
+</div>
+</div>
+
+
+</form>
+
+
+
+</body>
+</html>
